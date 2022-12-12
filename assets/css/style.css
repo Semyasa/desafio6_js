@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo hr{
+    color: darkgreen;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titulo{
+
+    width: 600px;
+    align-items: center;
+}
+
+.card{
+    background-color: grey;
+    width: 450px;
+    align-items: center;
+}
+
+.card h4{
+    margin-top: 20px;
+}
+
+.card input{
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.card select{
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card button{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.grafico{
+    width: 800px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
